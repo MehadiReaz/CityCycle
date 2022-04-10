@@ -1,7 +1,7 @@
 #include<windows.h>
 #include<GL/glut.h>
 void Idle(){
-    glutPostRedisplay();//// marks the current window as needing to be redisplayed
+    glutPostRedisplay();
 }
 void road(){
     glBegin(GL_QUADS);
